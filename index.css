@@ -1,0 +1,344 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+
+/* Inicio Header section nav  */
+
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #4BBCF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    flex-direction: inherit;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url(lamia.jpg);
+    image-resolution: from-image;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLu {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLi {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* fin Header section nav  */
+
+/* Inicio section contenido  */
+
+
+.vaciones {
+    height: 477px;
+    width: 50%;
+    margin: 10px auto;
+    padding: inherit;
+    background-color: #61C0BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #FAE3D9;
+    border-radius: 22px;
+}
+
+.sectionTitulo {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloSection {
+    margin-top: 0.5rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dondeIdo {
+    width: 100%;
+    height: 200px;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tituloDondeIdo {
+    margin-top: 0.01rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ulDondeIdo {
+    margin: 5px;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dondeIdoLI {
+    display: block;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+.containerLista {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.vaciones .dondeIdo .para {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* fin section Donde hemos ido   */
+
+/* Inicio section Donde iremos  */
+
+.dondeIremos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ .tabla {
+
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #BBDED6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #FAE3D9;
+    border-radius: 22px;
+    overflow-x:auto;
+
+}
+
+table {
+    background: white;
+    text-align: left;
+    width: 100%;
+    
+}
+
+thead {
+    background: #4BBCF4;
+    color: white;
+    padding: 10px;
+    border-bottom: solid 105px #000;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background: #D5EAF0;
+}
+
+tr:hover {
+    background: #4BBCF4;
+    cursor: pointer;
+}
+
+/* Fin section contenido  */
+
+/* Inicio Form  */
+
+form {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    background-color: #4BBCF4;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2389dee3'/%3E%3Cstop offset='1' stop-color='%2389dee3' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23cf7ffb'/%3E%3Cstop offset='1' stop-color='%23cf7ffb' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23dbf1b6'/%3E%3Cstop offset='1' stop-color='%23dbf1b6' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%234BBCF4'/%3E%3Cstop offset='1' stop-color='%234BBCF4' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23BBDED6'/%3E%3Cstop offset='1' stop-color='%23BBDED6' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FFB6B9'/%3E%3Cstop offset='1' stop-color='%23FFB6B9' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+input{
+    width: 80%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #4BBCF4;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Fin Form  */
+
+/* Inicio galeia  */
+
+/* The grid: */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+
+
+/* fin galeria */
+
+
+
